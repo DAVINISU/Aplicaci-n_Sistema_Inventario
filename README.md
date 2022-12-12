@@ -1,2 +1,2 @@
-# Aplicaci-n_Sistema_Inventario
+# Aplicacion_Sistema_Inventario
 Esta es una aplicación para llenar bases de datos de inventarios...
