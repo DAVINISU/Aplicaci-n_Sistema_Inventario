@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "399219323935",
+    "project_id": "sistemainventario-f93df",
+    "storage_bucket": "sistemainventario-f93df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:399219323935:android:ea79bfb97b15ce6154d12a",
+        "android_client_info": {
+          "package_name": "com.example.sistemainventario"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "399219323935-pm15u5sgahbk8n55n5ss7ldaufu41m7e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChpWdL4HgQ6g0OGr5w6_zwSrrl98zBgC8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "399219323935-pm15u5sgahbk8n55n5ss7ldaufu41m7e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

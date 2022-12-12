@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_entrada"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Title_main"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/azulCorporativo"
+        android:textSize="25dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Entradas"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/celesteCorporativo"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Referencia"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/azulCorporativo"
+        />
+
+    <EditText
+        android:id="@+id/etidref"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="Ingrese la referencia"
+        android:textSize="15sp"
+        android:inputType="number" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Número de Entrada"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/azulCorporativo"
+        />
+
+    <EditText
+        android:id="@+id/etidentradas"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="Ingrese Entrada"
+        android:textSize="15sp"
+        android:inputType="number" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cantidad"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/azulCorporativo"
+        />
+
+    <EditText
+        android:id="@+id/etcantidad"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="Ingrese la cantidad"
+        android:textSize="15sp"
+        android:inputType="date" />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Precio Unitario"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/azulCorporativo"
+        />
+
+    <EditText
+        android:id="@+id/etprecioentrada"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Ingrese el precio unitario"
+        android:gravity="center"
+        android:inputType="number"
+        android:textSize="15sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        >
+        <ImageButton
+            android:layout_marginLeft="10dp"
+            android:id="@+id/btnsavesale"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_save_24"
+            />
+        <ImageButton
+            android:layout_marginLeft="10dp"
+            android:id="@+id/btnback"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        >
+    </LinearLayout>
+
+</LinearLayout >
